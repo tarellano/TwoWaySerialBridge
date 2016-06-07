@@ -66,4 +66,6 @@ public class SerialBridge {
         serialPort.setSerialPortParams(baudRate, dataBits, stopBits, parityBits);
         return serialPort;
     }
+
+
 }
